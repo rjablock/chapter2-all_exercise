@@ -69,3 +69,8 @@
 # puts string_shuffle("フシギダネ　ヒトカゲ　ゼニガメ")
 
 
+num = { :one => "uno", :two => "dos", :three => "tres" }
+
+num.each do |key, value|
+ puts "'#{key}'はスペイン語で'#{value}'"
+end
